@@ -474,7 +474,6 @@ body {
 .service-link:hover {
     color: var(--primary-color);
 }
-}
 
 .service-card:nth-child(5) {
     animation-delay: 0.5s;
