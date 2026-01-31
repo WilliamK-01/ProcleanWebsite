@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Clean - Professional Cleaning Services</title>
+    <link rel="icon" type="image/png" href="assets/Biohazard.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/Biohazard.png" alt="Pro Clean Logo" class="logo-img">
+                <span>Pro Clean</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="assets/logo.png" alt="Pro Clean" class="hero-logo">
+            <p class="hero-subtitle">The ultimate in hygiene services! Our teams make sure to deliver a safe & healthy environment.</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+        <div class="hero-background" data-parallax>
+            <canvas id="canvas-animation"></canvas>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Pro Clean</h2>
+                <p>We are dedicated to providing top-quality cleaning services that transform your spaces into pristine environments. With years of experience and a commitment to excellence, we deliver results that exceed expectations.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/IMG-20241106-WA0014.jpg" alt="Pro Clean Team" class="image-with-animation">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <h2>Our Services</h2>
+            <p class="services-subtitle">Comprehensive cleaning solutions tailored to your specific needs</p>
+            
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">🧹</div>
+                    <h3>Deep Cleaning Services</h3>
+                    <p>Thorough and comprehensive deep cleaning solutions for residential and commercial spaces, reaching every corner for complete sanitation.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">🛋️</div>
+                    <h3>Upholstery Cleaning</h3>
+                    <p>Professional upholstery and furniture cleaning that removes stains, odors, and allergens, restoring fabric to pristine condition.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">📋</div>
+                    <h3>Maintenance Cleaning</h3>
+                    <p>Regular maintenance cleaning plans designed to keep your space consistently clean and well-maintained throughout the year.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">⚠️</div>
+                    <h3>Biohazard & Crime Scene Cleanup</h3>
+                    <p>Professional and compassionate biohazard and crime scene cleanup services meeting all health and safety regulations and standards.</p>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="assets/Lumii_20250522_103744503.jpg" alt="Portfolio 1" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Residential Project 1</h3>
+                    <p>Complete home transformation</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="assets/Lumii_20251028_100930446.jpg" alt="Portfolio 2" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Residential Project 2</h3>
+                    <p>Deep cleaning excellence</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="assets/WaterMark_2025-05-18-08-37-52_edit_28583953842427.jpg" alt="Portfolio 3" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Commercial Project</h3>
+                    <p>Professional office cleaning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Location</h3>
+                        <p>Secunda, Mpumalanga, 2302<br>South Africa</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Phone</h3>
+                        <p>+27 72 109 6094</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📧 Email</h3>
+                        <p>megan.smith777@yahoo.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕐 Hours</h3>
+                        <p>Mon - Fri: 8AM - 6PM<br>Sat: 9AM - 4PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-legal">
+                <p>&copy; 2025 Pro Clean. All rights reserved.</p>
+                <p>Reg no: 2020/148658/07 · VAT nr: 4810295610 · SAHPRA: 00001538MD</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
